@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.innerContainer {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    border: solid;
+    padding: 12px;
+    background-color: white;
+}
+
