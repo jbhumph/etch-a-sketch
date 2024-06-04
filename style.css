@@ -1,5 +1,29 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: auto;
+    margin: 0px;
+    font-family: "roboto", sans-serif;
     background-color: black;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.btn {
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .container {
@@ -16,7 +40,17 @@ body {
 .box {
     display: flex;
     border: solid;
+    border-width: 3px;
+    border-color: black;
     padding: 12px;
     background-color: white;
 }
 
+.box:hover {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.footer {
+    text-align: center;
+}
