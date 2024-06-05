@@ -24,10 +24,14 @@ function drawGrid(gridSize) {
             innerContainer.appendChild(box);
         }
     }
+    let square = document.querySelectorAll(".box");
+    square.forEach((square) => {
+        square.addEventListener("mouseover", () => {
+            let a = "rgb(" + Math.floor(Math.random() * 255) + ", " + Math.floor(Math.random() * 255) + ", " + Math.floor(Math.random() * 255) + ")"
+            square.style.backgroundColor = a;
+        })
+    })
 }
 
-const square = document.querySelector(".box");
-square.addEventListener("mouseover", () => {
-    square.style.backgroundColor = "black";
-})
+
 
