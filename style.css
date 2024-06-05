@@ -12,12 +12,53 @@ body {
 
 .title {
     text-align: center;
+    padding-bottom: 26px;
+}
+
+h1 {
+    color: #4cb7e3;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.intro {
+    display: flex;
+    flex-basis: 900px;
+    font-size: 14px;
+    color: #5b5b5b;
+}
+
+.para {
+    padding: 16px;
+    font-size: 14px;
 }
 
 .btn {
     padding: 12px;
     padding-left: 24px;
     padding-right: 24px;
+    font-weight: bold;
+    background-color: #5b5b5b;
+    color: #4cb7e3;
+    border-color: #4cb7e3;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: bold;
+    background-color: #5b5b5b;
+    color: #ec406b;
+    border-color: #ec406b;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .grid {
@@ -31,6 +72,10 @@ body {
     flex-direction: column;
     justify-self: center;
     align-self: center;
+    border-style: solid;
+    border-color: #4cb7e3;
+    border-width: 4px;
+    border-radius: 18px;
 }
 
 .innerContainer {
@@ -53,4 +98,6 @@ body {
 
 .footer {
     text-align: center;
+    font-size: 14px;
+    color: #5b5b5b;
 }
