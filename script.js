@@ -18,9 +18,11 @@ function drawGrid(gridSize) {
         const innerContainer = document.createElement("div");
         innerContainer.setAttribute("class", "innerContainer");
         container.appendChild(innerContainer);
+        let gs = 690 / gridSize;
         for (let j = 0; j < gridSize; j++) {
             const box = document.createElement("div");
             box.setAttribute("class", "box");
+            box.setAttribute("style", `border: 0px solid black; width: ${gs}px; height: ${gs}px;`);
             innerContainer.appendChild(box);
         }
     }
